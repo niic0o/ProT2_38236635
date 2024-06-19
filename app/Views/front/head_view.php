@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Página Principal</title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/miestilo.css" rel="stylesheet">    
+    <link href="assets/css/miestilo.css" rel="stylesheet">
+    <!-- iconos -->
+    <link href="assets/fontawesome/css/all.css" rel="Stylesheet">
 </head>
 <!-- inicio encabezado -->
 <header>
