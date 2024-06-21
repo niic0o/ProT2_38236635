@@ -1,40 +1,40 @@
 <section class="container">
    <!-- listado -->
+   <h3 class="supertitulo">Objetivos Generales</h3>
+   <br>
     <ul class="list-group">
-        <h3 class="supertitulo">Objetivos Generales</h3>
-        <li class="list-group-item">Nuestro compromiso con el cliente es brindar una amplia variedad de articulos para el cuidado de la huerta
-            personal, así como su propio jardín
+        <li class="list-group-item card-text list-group-item-primary">Nuestro compromiso con el cliente es brindar una amplia variedad de articulos para el cuidado de la huerta
+            personal, así como su propio jardín.
+        </li>
+        <li class="list-group-item card-text list-group-item-success"><span>Ofrecemos la posibilidad de realizar compras virtuales con envíos a domicilio de plantas, pequeños arboles, semillas,
+            plantas decorátivas y plantas de frutos comestibles, herramientas para el cuidado de la huerta: riego, poda, siembra, etc. <br>
+            Ofrecemos abonos e insecticidas natuales libres de agrotóxicos. </span>
+        </li>
+        <li class="list-group-item card-text list-group-item-warning">Nuestras masetas cuentan con una adecuada perforación para el uso responsable del agua.
+        </li>
+        <li class="list-group-item card-text list-group-item-info">Queremos que empieces de cero en la creación de una huerta o decoración de tu propio jardín.
+             Nosotros te <span>acompañamos en el proceso</span>
+        </li>
+        <li class="list-group-item card-text list-group-item-danger">No es necesario acercarte a nuestros locales para realizar las compras.
+            Desde el catálogo de esta página y con un intuitivo <span>carrito de compras </span> podrás adquirir todos los productos que desees a un solo click.
+        </li>
+        <li class="list-group-item card-text list-group-item-primary">Encontrá en el pie de página la información de contacto o envía un mensaje por <span>Whatsapp al
+            3774908070</span> O acercate a <span>Corrientes, Capital, 9 de Julio 1998</span> en los siguientes horarios:<br>
+            Lunes a Viernes de 8:00 hs a 14:00 hs y de 16:00 hs a 21:00 hs
         </li>
 
-        <li class="list-group-item list-group-item-primary">Ofrecemos la posibilidad de realizar compras virtuales con envíos a domicilio</li>
-        <li class="list-group-item list-group-item-secondary">Utilizamos profuctos que ayudan al cuidado del medio ambiente libre de agrotóxicos y
-            una adecuada perforación de macetas para el cuidado del agua
+        <li class="list-group-item card-text list-group-item-success">El envío a domicilio lo hacemos a través de la aplicación pedidos ya y por nuestro whatsapp,
+            también podés pasar a retirar</li>
+        <li class="list-group-item card-text list-group-item-warning">No atendemos feriados ni fines de semana.
         </li>
-        <li class="list-group-item list-group-item-success">Queremos que empieces de cero en la creación de una huerta o decoración de tu propio jardín
-            Nosotros te <span>acompañamos en el proceso</span>
-        </li>
-        <li class="list-group-item list-group-item-danger">No es necesario acercarte a nuestros locales para realizar las compras.
-            Desde el catálogo de esta página y con intuitivo carrito podrás adquirir todos los productos que desees a un solo click.
-        </li>
-        <li class="list-group-item list-group-item-warning">A simple warning list group item</li>
-        <li class="list-group-item list-group-item-info">A simple info list group item</li>
-        <li class="list-group-item list-group-item-light">A simple light list group item</li>
-        <li class="list-group-item list-group-item-dark">A simple dark list group item</li>
     </ul>
 </section>
 
 <section class="container">
     <!-- listado pero manualizado a base de divs-->
-    <div class="bg-success p-2 text-white">
-        <h1>Objetivos Generales</h1>
-        <div class="bg-success p-2 text-white bg-opacity-75">
-         Aca va un texto largo bla bla bla
-        </div>
-    </div>   
-    <div class="bg-success p-2 text-dark bg-opacity-50">
-         Aca va otro texto largo bla bla bla con otro color
-    </div> 
-    <div class="bg-success p-2 text-darkbg-opacity-25">
-         Aca va otro texto largo bla bla bla con transparencia
-    </div>
+    <div class="text-center mb-5">
+ <a href="<?php echo base_url('catalogo') ?>">
+  <button class="btn btn-success btn-lg btn-comprar supertitulo focus">Comprar</button>
+</a>
+</div>
 </section>

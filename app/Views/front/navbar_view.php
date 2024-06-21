@@ -29,8 +29,8 @@
           </a>
           <ul class="dropdown-menu fondo_gris" aria-labelledby="navbarDropdown">
             <!-- Uso nav-link en vez de dropdown-item para manejar los semi clicks del usuario que corrompen el :hoover de mi css-->
-            <li><a class="nav-link supertitulo" href="#">Plantas</a></li>
-            <li><a class="nav-link supertitulo" href="#">Masetas</a></li>
+            <li><a class="nav-link supertitulo" href="<?php echo base_url('catalogo') ?>">Plantas</a></li>
+            <li><a class="nav-link supertitulo" href="<?php echo base_url('catalogo') ?>">Masetas</a></li>
             <li>
               <hr class="dropdown-divider">
             </li>
